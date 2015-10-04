@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Moochr</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href="css/vendor/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vendor/component.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<!-- Hide landing after button click. -->
+		<section id="landing">
+			<div class="center">
+				<h1>Moochr</h1>
+				<h2>Find free food near you!</h2>
+				<input type="text" placeholder="City, State"></input>
+				<button class="btn btn-1 btn-1a">Get Frood</button>
+			</div>
+
+			<footer>
+				<p>Made in Berkeley, CA.</p>
+			</footer>
+		</section>
+
+		<!-- Show results after button click. -->
+		<section id="search">
+			<!-- Top Search Header -->
+			<header>
+				<h1>Moochr</h1>
+				<input type="text" class="form-control" placeholder="City, State">
+				<span><button class="btn btn-1 btn-1a">Get Frood</button></span>
+				</span>
+			</header>
+
+			<!-- Display results. -->
+			<section id="results">
+			</section>
+
+			<footer>
+				<p>Made in Berkeley, CA.</p>
+			</footer>
+		</section>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

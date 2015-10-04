@@ -1,0 +1,62 @@
+#search {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #FFF; }
+  #search header {
+    position: relative;
+    display: inline-block;
+    padding: 1em;
+    width: 100%; }
+    #search header h1 {
+      display: inline;
+      font-family: "Righteous", cursive;
+      margin-right: 1em; }
+    #search header input {
+      position: absolute;
+      display: inline;
+      width: 50%;
+      margin: 0 auto;
+      padding: 4px;
+      border: 4px solid #AAA;
+      color: #444;
+      font-weight: 600;
+      font-size: 1.4em;
+      -webkit-transition: border ease 0.4s;
+      -moz-transition: border ease 0.4s;
+      -o-transition: border ease 0.4s;
+      transition: border ease 0.4s; }
+    #search header input:focus {
+      outline: none;
+      border: 4px solid #666; }
+    #search header button {
+      position: absolute;
+      right: 10px;
+      display: inline;
+      margin: 0;
+      padding: 4px 5px;
+      color: #FFF; }
+    #search header button:hover {
+      color: #637; }
+    #search header button:focus {
+      outline: none; }
+  #search #results {
+    width: 100%;
+    padding: 0; }
+  #search .result {
+    display: inline-block;
+    margin: 1em 2em;
+    padding: 0.8em 2em;
+    background-color: #fff;
+    color: #222;
+    border-radius: 4px; }
+    #search .result .event-name {
+      font-weight: 600;
+      font-size: 1.8em; }
+    #search .result .event-date,
+    #search .result .event-time,
+    #search .result .event-location {
+      margin-bottom: 0;
+      font-size: 1.2em; }
+
+/*# sourceMappingURL=search.css.map */

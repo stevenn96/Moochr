@@ -1,0 +1,14 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5em;
+  text-align: left;
+  background-color: #222;
+  opacity: 0.6; }
+  footer p {
+    margin: 0;
+    font-size: 1.4em;
+    font-family: "Montserrat", sans-serif; }
+
+/*# sourceMappingURL=footer.css.map */
